@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sua Jornada no Futebol</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Tela Inicial -->
+  <div id="screen-start" class="screen active">
+    <div class="card">
+      <h1 class="title">Sua Jornada no Futebol</h1>
+      <p class="description">
+        Tome as decisões mais importantes da sua carreira no futebol. Não existem escolhas certas ou erradas, apenas caminhos diferentes para o seu legado!
+      </p>
+      <div class="options-container">
+        <button id="btn-start" class="btn btn-primary">Iniciar Perguntas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tela de Perguntas -->
+  <div id="screen-question" class="screen">
+    <div class="card">
+      <h1 id="question-title" class="title">Título da Pergunta</h1>
+      <p id="question-text" class="description">Descrição do cenário...</p>
+      
+      <div class="options-container">
+        <button id="opt1" class="btn btn-primary">Opção 1</button>
+        <button id="opt2" class="btn btn-secondary">Opção 2</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tela Final -->
+  <div id="screen-end" class="screen">
+    <div class="card">
+      <h1 class="title">O Resumo da Sua Carreira</h1>
+      <div id="final-summary" class="summary-box">
+        <!-- O texto final gerado aparecerá aqui -->
+      </div>
+      <div class="options-container">
+        <button id="btn-restart" class="btn btn-primary">Jogar Novamente</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- O script DEVE ser importado aqui no final -->
+  <script src="script.js"></script>
+</body>
+</html>
